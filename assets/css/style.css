@@ -25,9 +25,6 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -35,7 +32,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #00738E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -56,7 +53,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #00B0B6;
   color: #fff;
 }
 
@@ -65,9 +62,6 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -84,7 +78,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #00B0B6;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -152,12 +146,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
 .navbar {
   padding: 0;
 }
@@ -281,9 +269,6 @@ h6 {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
 .mobile-nav-toggle {
   color: #00738E;
   font-size: 28px;
@@ -524,9 +509,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 80px 0;
   overflow: hidden;
@@ -556,9 +538,6 @@ section {
   color: #919191;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -613,9 +592,6 @@ section {
   text-decoration: none;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
 .counts {
   padding: 60px 0;
 }
@@ -643,9 +619,6 @@ section {
   color: #1e6ca6;
 }
 
-/*--------------------------------------------------------------
-# About Video
---------------------------------------------------------------*/
 .about-video .content {
   font-size: 15px;
 }
@@ -758,9 +731,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
 .clients {
   padding: 15px 0;
   text-align: center;
@@ -785,9 +755,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -876,9 +843,6 @@ section {
   background-color: #2487ce;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -1009,9 +973,6 @@ section {
   fill: #11dbcf;
 }
 
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
 .cta {
   background: #2487ce;
   background-size: cover;
@@ -1047,9 +1008,6 @@ section {
   color: #2487ce;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1202,9 +1160,6 @@ section {
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1267,9 +1222,6 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1345,9 +1297,6 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
 .pricing .box {
   padding: 40px 20px;
   text-align: center;
@@ -1456,9 +1405,6 @@ section {
   color: #2487ce;
 }
 
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1538,9 +1484,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1681,9 +1624,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
   background: #f8fbfe;
@@ -1736,9 +1676,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   color: #444444;
   font-size: 14px;
@@ -1875,7 +1812,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #00738E;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1888,7 +1825,11 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #00B0B6;
   color: #fff;
   text-decoration: none;
+}
+
+.img-fluid {
+  width: 75%;
 }
