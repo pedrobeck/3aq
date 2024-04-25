@@ -2120,3 +2120,16 @@ td {
 .closeModal:hover .btn-title-close:hover {
   background-color: #00748ec5;
 }
+
+.contact-message {
+  margin-top: 20px;
+}
+
+.contact-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
