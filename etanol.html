@@ -26,8 +26,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- CSS File -->
+  
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -118,7 +117,7 @@
             <div class="portfolio-info">
               <h3>Linha de Produtos para Fabricação de Etanol</h3>
               <ul>                
-                <li><a href=""><i class="ri-arrow-right-double-fill line-product"></i> AQ10 Antiespumante</a></li>
+                <li><a href="" id="linkProduto1"><i class="ri-arrow-right-double-fill line-product"></i> AQ10 Antiespumante</a></li>
                 <li><a href=""><i class="ri-arrow-right-double-fill line-product"></i> AQ20 Dispersante </a></li>
                 <li><a href=""><i class="ri-arrow-right-double-fill line-product"></i> AQQuat Bactericida Quaternario </a></li>
                 <li><a href=""><i class="ri-arrow-right-double-fill line-product"></i> AQOrgano Bactericida Organo Sulfuroso </a></li>
@@ -207,27 +206,97 @@
     </section>
 </main>
 
-  
-
-  <footer id="footer">
-    <div class="container d-md-flex py-4">
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          <strong><span>3AQ Produtos Químicos LTDA</span></strong>
-          <p><span>CPNJ: 51.358.586/0001-00</span></p>
-
-          <p>&copy; Todos os direitos reservados - Copyright © 2024</p>
-        </div>
+<div class="modal fade" id="produtoModal" tabindex="-1" aria-labelledby="produtoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">        
+          <div class="modal-body" id="modalBody">
+              <!-- Aqui será inserido o conteúdo do produto -->
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary closeModal" data-bs-dismiss="modal">Fechar</button>
+          </div>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+  </div>
+</div>
+
+<div id="produto1" class="d-none">
+  <div class="modal-header-title">
+    <div class="modal-header-title">
+      <h1 class="modal-header-aq">AQ10</h1>&nbsp&nbsp
+      <h2 class="modal-title">Antiespumante para Fermentação</h2>
+    </div>
+    <button type="button" class="btn-close btn-title-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+ 
+  <div class="modal-table-body">
+    <table>
+      <tr>
+        <th>Características</th>
+        <th>Detalhes</th>
+      </tr>
+      <tr>
+        <td>Composição</td>
+        <td>Poliglicóis, óleos vegetais</td>
+      </tr>
+      <tr>
+        <td>Aspecto</td>
+        <td>Líquido viscoso</td>
+      </tr>
+      <tr>
+        <td>Viscosidade (CST) a 37,8o</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Densidade</td>
+        <td>0,800 a 0,9500 g/cm3</td>
+      </tr>
+      <tr>
+        <td>Solubilidade</td>
+        <td>Insolúvel em água</td>
+      </tr>
+      <tr>
+        <td>Embalagem</td>
+        <td>Bombona 180 kg/ Container 900 /A granel</td>
+      </tr>
+    </table>
+  </div>
+  <h3>Mecanismo de Ação</h3>
+      <p>Os componentes do mosto em fermentação representados principalmente pelos açúcares, eletrólitos, proteínas, peptídeos e ácidos, concentram-se na interface ar-líquido, dando origem a uma película elástica. Os gases produzidos durante a fermentação, por apresentarem densidade menor que a do líquido, sobem à superfície e expandem a referida película...</p>
+
+      <h3>Embalagens</h3>
+      <p>Bombona com 180 Kg e container retornável de 900 Kg.</p>
+
+      <h3>Aplicação e Dosagem</h3>
+      <p>Adicionar o antiespumante diretamente nas dornas de fermentação, ou na linha de mosto em dosagens compatíveis com a severidade do problema de espuma.</p>
+
+      <h3>Estocagem e Manuseio</h3>
+      <ul>
+        <li>Deverá ser mantido em sua embalagem original, em local arejado, mantendo-se as embalagens fechadas.</li>
+        <li>Durante o manuseio, usar luvas de PVC, protetor facial, óculos e avental, cuidados estes recomendados para todo e qualquer produto químico.</li>
+        <li>Validade: 3 meses após a data de fabricação.</li>
+        <li>Para maiores informações, consultar a Ficha de Informações de Segurança do Produto Químico (FISPQ), ou nosso Departamento Técnico.</li>
+      </ul>
+</div>
+  
+<footer id="footer">
+  <div class="container d-md-flex py-4">
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        <strong><span>3AQ Produtos Químicos LTDA</span></strong>
+        <p><span>CPNJ: 51.358.586/0001-00</span></p>
+
+        <p>&copy; Todos os direitos reservados - Copyright © 2024</p>
       </div>
     </div>
-  </footer><!-- End Footer -->
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+      <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

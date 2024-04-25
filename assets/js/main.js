@@ -209,4 +209,26 @@
 
   new PureCounter();
 
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    var myModal = new bootstrap.Modal(document.getElementById('produtoModal'));
+
+    function exibirInformacoesProduto(produtoId) {
+        var produtoInfo = document.getElementById(produtoId).innerHTML;
+        document.getElementById('modalBody').innerHTML = produtoInfo;
+        myModal.show();
+    }
+
+    // Atribuindo a função ao link do produto 1
+    var linkProduto1 = document.getElementById('linkProduto1');
+    linkProduto1.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('produto1');
+    });
+
+    // Adicione atribuições para outros links e produtos, se necessário
+  });
 })()
+
+
+

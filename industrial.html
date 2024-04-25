@@ -107,7 +107,6 @@
             <li>Industrial</li>
           </ol>
         </div>
-
       </div>
     </section>
 
@@ -118,7 +117,7 @@
             <div class="portfolio-info">
               <h3>Linha de Produtos para Indústria</h3>
               <ul>                
-                <li><a href=""><i class="ri-arrow-right-double-fill line-product"></i> AQPac Policloreto de Alumínio</a></li>
+                <li><a href="#" id="linkProduto1"><i class="ri-arrow-right-double-fill line-product"></i> AQPac Policloreto de Alumínio</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
@@ -194,12 +193,32 @@
                         </div>
                     </div>
                 </div>
-            </div>        
+            </div>  
+            <div id="produto1" class="d-none">
+              <h4>Informações do Produto 1</h4>
+              <p>Descrição do Produto 1</p>
+          </div>
+          <a href="#" id="linkProduto1">Produto 1</a>      
         </div>
     </section>
 </main>
 
-  
+<div class="modal fade" id="produtoModal" tabindex="-1" aria-labelledby="produtoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="produtoModalLabel">Informações do Produto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="modalBody">
+              <!-- Aqui será inserido o conteúdo do produto -->
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+      </div>
+  </div>
+</div>
 
   <footer id="footer">
     <div class="container d-md-flex py-4">
