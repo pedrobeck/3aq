@@ -92,16 +92,29 @@ h6 {
 }
 
 .img-3aq {
-  width: 50%;
-  padding: 25px;
+  width: 70%;
+  padding-bottom: 25px;
 }
 
 .text-3aq {
   color: #004858;
   text-shadow: #000;
-  padding: 25px;
-  font-size: 54px;
+  padding: 30px;
+  font-size: 85px;
   font-weight: 700;
+}
+
+@media(max-width: 768px) {
+  .text-3aq{
+    display: flex;
+    font-size: 50px;
+    padding: 15px;
+    line-height: 85%;
+  }
+  .img-3aq {
+    width: 92%;
+    padding-bottom: 0px;
+  }
 }
 
 @keyframes animate-preloader {
@@ -411,7 +424,7 @@ h6 {
 }
 
 #home .container {
-  padding-top: 80px;
+  padding-top: 15px;
 }
 
 #home h1 {
