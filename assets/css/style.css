@@ -1648,9 +1648,8 @@ section {
 }
 
 .breadcrumbs {
-  padding: 15px 0;
-  background: #f8fbfe;
-  min-height: 40px;
+  padding-bottom: 1px;
+  padding-top: 30px;
   margin-top: 72px;
 }
 
