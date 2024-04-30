@@ -220,15 +220,54 @@
     }
 
     // Atribuindo a função ao link do produto 1
-    var linkProduto1 = document.getElementById('linkProduto1');
-    linkProduto1.addEventListener('click', function(event) {
+    var linkAQ10 = document.getElementById('linkAQ10');
+    linkAQ10.addEventListener('click', function(event) {
         event.preventDefault();
-        exibirInformacoesProduto('produto1');
+        exibirInformacoesProduto('AQ10');
+        
     });
 
+    var linkAQ20 = document.getElementById('linkAQ20');
+    linkAQ20.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQ20');        
+    });
+
+    var linkAQ20 = document.getElementById('linkAQQuat');
+    linkAQ20.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQQuat');        
+    });
+
+    var linkAQOrgano = document.getElementById('linkAQOrgano');
+    linkAQOrgano.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQOrgano');        
+    });
+
+    var linkAQBiocide = document.getElementById('linkAQBiocide');
+    linkAQBiocide.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQBiocide');        
+    });
+
+    var linkAQNutri = document.getElementById('linkAQNutri');
+    linkAQNutri.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQNutri');        
+    });
+
+    var linkAQEtanol = document.getElementById('linkAQEtanol');
+    linkAQEtanol.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQEtanol');
+    });
+    
+    var linkAQColun = document.getElementById('linkAQColun');
+    linkAQColun.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQColun');        
+    });
     // Adicione atribuições para outros links e produtos, se necessário
   });
 })()
-
-
-
