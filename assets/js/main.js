@@ -223,8 +223,7 @@
     var linkAQ10 = document.getElementById('linkAQ10');
     linkAQ10.addEventListener('click', function(event) {
         event.preventDefault();
-        exibirInformacoesProduto('AQ10');
-        
+        exibirInformacoesProduto('AQ10');        
     });
 
     var linkAQ20 = document.getElementById('linkAQ20');
@@ -268,6 +267,32 @@
         event.preventDefault();
         exibirInformacoesProduto('AQColun');        
     });
+
+    var linkAQColun = document.getElementById('linkAQColun');
+    linkAQColun.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQColun');        
+    });
+
+    var linkAQ22 = document.getElementById('linkAQ22');
+    linkAQ22.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQ22');        
+    });
+
+    var linkAQ23 = document.getElementById('linkAQ23');
+    linkAQ23.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQ23');        
+    });
+   
+
+    var linkAQLub = document.getElementById('linkAQLub');
+    linkAQLub.addEventListener('click', function(event) {
+        event.preventDefault();
+        exibirInformacoesProduto('AQLub');        
+    });
+   
     // Adicione atribuições para outros links e produtos, se necessário
   });
 })()
