@@ -92,8 +92,8 @@ h6 {
 }
 
 .img-3aq {
-  width: 50%;
-  padding: 25px;
+  width: 70%;
+  padding: 20px;
 }
 
 .text-3aq {
@@ -141,33 +141,34 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  /* background: #fff; */
   z-index: 997;
   padding: 15px 0;
-  border-bottom: 1px solid #e6f2fb;
+  border-bottom: 1px solid transparent;
 }
 
 #header.header-scrolled {
-  border-color: #fff;
+  background: rgba(48, 54, 49, 0.795);
+  /* border-color: #fff; */
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; 
 }
 
 #header .logo a {
-  color: #00B0B6;
+  color: #00B0B6; 
 }
 
 #header .logo img {
-  max-height: 58px;
+  max-height: 85px;
 }
 
 @media (max-width: 992px) {
@@ -198,8 +199,8 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 16px;
-  color: #00738E;
+  font-size: 21px;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -215,7 +216,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #00738E;
+  color: #00B0B6;
   font-weight: bold;
 }
 
@@ -415,7 +416,7 @@ h6 {
 
 #home:before {
   content: "";
-  background: rgba(255, 255, 255, 0.795);
+  background: rgba(73, 82, 75, 0.795);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -432,7 +433,7 @@ h6 {
   font-size: 54px;
   font-weight: 700;
   line-height: 72px;
-  color: #00738e;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
 
