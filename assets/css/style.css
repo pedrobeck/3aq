@@ -113,7 +113,7 @@ h6 {
   }
   .img-3aq {
     width: 92%;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
   }
 }
 
@@ -2145,4 +2145,21 @@ td {
 
 .contact-link:hover {
   text-decoration: underline;
+}
+
+.btn-prods button {
+
+  background-color: transparent;
+  border: 2px solid #00738E;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-prods button:hover {
+  background-color: #00738E;
+  color: white;
 }
