@@ -2147,7 +2147,7 @@ td {
   text-decoration: underline;
 }
 
-.btn-prods button {
+.btn-prods {
 
   background-color: transparent;
   border: 2px solid #00738E;
@@ -2160,7 +2160,7 @@ td {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-prods button:hover {
+.btn-prods:hover {
   background-color: #00738E;
   color: white;
 }
