@@ -113,7 +113,7 @@ h6 {
   }
   .img-3aq {
     width: 92%;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
   }
 }
 
@@ -2154,7 +2154,8 @@ td {
   border-radius: 12px;
   padding: 10px 20px;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
